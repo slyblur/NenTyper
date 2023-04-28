@@ -6,16 +6,17 @@ public class NenTyper {
 	
 	public static void main (String[] args) {
 		
-		int op;
-		int persona;
-		int element;
-		int power;
-		boolean cor;
-		String name;
+	int op;
+	int persona;
+	int element;
+	int power;
+	boolean cor;
+	String name;
 				
-		Scanner leia = new Scanner (System.in);
+	Scanner leia = new Scanner (System.in);
 		
-		System.out.println("""
+	System.out.println("""
+			   
 		
 		      \t\t welcome to [Nen念Type] identifier                                                                              
             ==========================================================
@@ -36,10 +37,10 @@ public class NenTyper {
            |                            *                             |
            |           Descubra abaixo qual seu tipo de Nen.          |
             ==========================================================   				
-																	""");
+								  """);
 		
 		
-		System.out.println("Hunter, insert your name: ");
+	System.out.println("Hunter, insert your name: ");
         name = leia.nextLine();
         
         System.out.println("\ntrue para Branco, false para Preto: ");
@@ -99,10 +100,15 @@ public class NenTyper {
         	else
         		System.out.println(name + ", your Nen Type is (変) ESPECIALIZAÇÃO.");
         }
-        
         else {
             System.out.println("\n\nSorry hunter, invalid nen-type.");
         
+		
+		
+		
+		
+		
+		
         
         // そんなに弱くなりたくない.
         	
